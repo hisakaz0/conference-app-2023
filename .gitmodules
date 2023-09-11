@@ -1,0 +1,3 @@
+[submodule "module-graph"]
+	path = module-graph
+	url = https://github.com/hisakaz0/module-graph/
