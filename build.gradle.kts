@@ -5,7 +5,7 @@ plugins {
     alias(libs.plugins.androidGradleLibraryPlugin) apply false
     alias(libs.plugins.kotlinGradlePlugin) apply false
     alias(libs.plugins.kotlinxKover) apply false
-    id("dev.iurysouza.modulegraph") version "0.4.0"
+    id("dev.iurysouza.modulegraph") version "0.4.0-SNAPSHOT"
 }
 
 tasks.register("clean", Delete::class) {

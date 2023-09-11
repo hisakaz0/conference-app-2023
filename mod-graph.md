@@ -29,47 +29,11 @@ graph LR
   main --> designsystem
   main --> ui
   main --> model
-  main --> designsystem
-  main --> ui
-  main --> model
-  main --> designsystem
-  main --> ui
-  main --> model
-  main --> designsystem
-  main --> ui
-  main --> model
   main --> testing
   app-ios-shared --> model
   app-ios-shared --> data
   app-ios-shared --> ui
   app-ios-shared --> contributors
-  app-ios-shared --> contributors
-  app-ios-shared --> model
-  app-ios-shared --> data
-  app-ios-shared --> contributors
-  app-ios-shared --> model
-  app-ios-shared --> data
-  app-ios-shared --> contributors
-  app-ios-shared --> model
-  app-ios-shared --> data
-  app-ios-shared --> contributors
-  app-ios-shared --> model
-  app-ios-shared --> data
-  app-ios-shared --> contributors
-  app-ios-shared --> model
-  app-ios-shared --> data
-  app-ios-shared --> contributors
-  app-ios-shared --> model
-  app-ios-shared --> data
-  sessions --> designsystem
-  sessions --> ui
-  sessions --> model
-  sessions --> designsystem
-  sessions --> ui
-  sessions --> model
-  sessions --> designsystem
-  sessions --> ui
-  sessions --> model
   sessions --> designsystem
   sessions --> ui
   sessions --> model
@@ -77,25 +41,7 @@ graph LR
   sponsors --> designsystem
   sponsors --> ui
   sponsors --> model
-  sponsors --> designsystem
-  sponsors --> ui
-  sponsors --> model
-  sponsors --> designsystem
-  sponsors --> ui
-  sponsors --> model
-  sponsors --> designsystem
-  sponsors --> ui
-  sponsors --> model
   sponsors --> testing
-  achievements --> designsystem
-  achievements --> ui
-  achievements --> model
-  achievements --> designsystem
-  achievements --> ui
-  achievements --> model
-  achievements --> designsystem
-  achievements --> ui
-  achievements --> model
   achievements --> designsystem
   achievements --> ui
   achievements --> model
@@ -110,73 +56,8 @@ graph LR
   testing --> floor-map
   testing --> achievements
   testing --> staff
-  testing --> model
-  testing --> designsystem
-  testing --> data
-  testing --> main
-  testing --> sessions
-  testing --> about
-  testing --> sponsors
-  testing --> floor-map
-  testing --> achievements
-  testing --> staff
-  testing --> model
-  testing --> designsystem
-  testing --> data
-  testing --> main
-  testing --> sessions
-  testing --> about
-  testing --> sponsors
-  testing --> floor-map
-  testing --> achievements
-  testing --> staff
-  testing --> model
-  testing --> designsystem
-  testing --> data
-  testing --> main
-  testing --> sessions
-  testing --> about
-  testing --> sponsors
-  testing --> floor-map
-  testing --> achievements
-  testing --> staff
   data --> model
   data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  data --> model
-  data --> common
-  about --> designsystem
-  about --> ui
-  about --> model
-  about --> designsystem
-  about --> ui
-  about --> model
-  about --> designsystem
-  about --> ui
-  about --> model
   about --> designsystem
   about --> ui
   about --> model
@@ -184,61 +65,13 @@ graph LR
   contributors --> model
   contributors --> ui
   contributors --> designsystem
-  contributors --> model
-  contributors --> ui
-  contributors --> designsystem
-  contributors --> model
-  contributors --> ui
-  contributors --> designsystem
-  contributors --> model
-  contributors --> ui
-  contributors --> designsystem
-  contributors --> model
-  contributors --> ui
-  contributors --> designsystem
-  contributors --> model
-  contributors --> ui
-  contributors --> designsystem
   ui --> common
   ui --> designsystem
   ui --> data
-  ui --> common
-  ui --> designsystem
-  ui --> data
-  ui --> common
-  ui --> designsystem
-  ui --> data
-  ui --> common
-  ui --> designsystem
-  ui --> data
-  ui --> common
-  ui --> designsystem
-  ui --> data
-  ui --> common
-  ui --> designsystem
-  ui --> data
-  staff --> designsystem
-  staff --> ui
-  staff --> model
-  staff --> designsystem
-  staff --> ui
-  staff --> model
-  staff --> designsystem
-  staff --> ui
-  staff --> model
   staff --> designsystem
   staff --> ui
   staff --> model
   staff --> testing
-  floor-map --> designsystem
-  floor-map --> ui
-  floor-map --> model
-  floor-map --> designsystem
-  floor-map --> ui
-  floor-map --> model
-  floor-map --> designsystem
-  floor-map --> ui
-  floor-map --> model
   floor-map --> designsystem
   floor-map --> ui
   floor-map --> model
@@ -255,119 +88,9 @@ graph LR
   app-android --> data
   app-android --> designsystem
   app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
   app-android --> app-ios-shared
   app-android --> core
   app-android --> feature
   app-android --> common
-  app-android --> data
-  app-android --> designsystem
-  app-android --> model
   app-android --> testing
-  app-android --> ui
-  app-android --> about
-  app-android --> achievements
-  app-android --> contributors
-  app-android --> floor-map
-  app-android --> main
-  app-android --> sessions
-  app-android --> sponsors
-  app-android --> staff
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> main
-  app-android --> contributors
-  app-android --> sessions
-  app-android --> about
-  app-android --> sponsors
-  app-android --> floor-map
-  app-android --> achievements
-  app-android --> staff
-  app-android --> model
-  app-android --> data
-  app-android --> designsystem
-  app-android --> ui
-  app-android --> testing
-
 ```
